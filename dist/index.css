@@ -1,0 +1,32 @@
+body{
+    width: 500px;
+    background-color: #fff3cd;
+    height: 300px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#word{
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: white;
+    
+}
+button{
+    margin: .3rem;
+    padding: .5rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 20px;
+}
+.re-direct{
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+}

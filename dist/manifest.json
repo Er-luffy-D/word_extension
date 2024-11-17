@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Popup on Browser Open",
+    "version": "1.0",
+    "description": "Shows a popup when the browser is opened.",
+    "permissions": ["storage"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html"
+    }
+  }
+  
